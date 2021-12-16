@@ -10,7 +10,7 @@ export const useFetchGifs = ( category ) => {
     });
 
     useEffect( () => {
-
+        
         getGifs( category )
             .then( imgs => {
                 
@@ -22,10 +22,6 @@ export const useFetchGifs = ( category ) => {
 
     }, [category])
 
-
-
-
     return state; // { data:[], loading: true };
-
 
 }

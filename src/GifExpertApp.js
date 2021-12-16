@@ -4,7 +4,7 @@ import { GifGrid } from "./components/GifGrid";
 
 export const GifExpertApp = () => {
 
-    const [categories, setCategories] = useState([`Jojo's`])
+    const [categories, setCategories] = useState([`Dragon ball`])
 
     // Agregar al final
     // const handleAdd = () => {
